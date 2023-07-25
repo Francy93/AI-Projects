@@ -23,8 +23,3 @@ https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr?usp=sh
 Here is the report:
 
 ![alt text](Report/img/Page1.jpg "Main page")
-![alt text](Report/img/Page2.jpg "Main page")
-![alt text](Report/img/Page3.jpg "Main page")
-![alt text](Report/img/Page4.jpg "Main page")
-![alt text](Report/img/Page5.jpg "Main page")
-![alt text](Report/img/Page6.jpg "Main page")
