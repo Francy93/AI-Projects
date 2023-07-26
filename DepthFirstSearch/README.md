@@ -1,30 +1,44 @@
-# Convolutional_Neural_Network
-AI: Second project of the Computer Science third-year about Convolutional Neural Network (CNN)
+# Depth-First Search (DFS) - River-Crossing Logic Puzzle
 
-<font color="blue"><h2>Convolutional Neural Network 🧠</h2></font>
-This project is about Convolutional Neural Network (CNN) and is the second project of the Computer Science third-year course.
+In this project, we will implement the **Depth-First Search (DFS) algorithm** in Java. The DFS algorithm will be used to solve two classic river-crossing logic puzzles: **The Missionaries and Cannibals Problem** and **The Jealous Husbands Problem**. The Missionaries and Cannibals Problem is a well-known toy problem in artificial intelligence and serves as an example of problem representation.
 
-<font color="blue"><h2>Overview 📚</h2></font>
-Convolutional Neural Networks (CNN) are a type of neural network that have been widely used in image and video recognition. CNNs are inspired by the structure of the animal visual cortex and can automatically learn to recognize visual patterns such as edges and shapes.
-The maximum accuracy reached was 99.04% in 81 epochs.
+## DFS Overview
 
-In this project, I implemented a CNN from scratch using Java without any machine learning related library, and trained the model on a mnist dataset, which consists of 2,810 8x8 gray-scale images in 10 classes. I used also Google Colab for this project, which is a free cloud-based Jupyter notebook environment that provides access to testing environments.
+The Depth-First Search (DFS) algorithm is a graph traversal technique that explores as far as possible along each branch before backtracking. It is an essential tool in solving various problems, including pathfinding and puzzles.
 
-<font color="blue"><h2>Try it out on Google Colab 🚀</h2></font>
-You can try out this implementation of the CNN on Google Colab by clicking on this link: 
-<a href="https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr#scrollTo=VWjk2um_hSyR"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+### The Missionaries and Cannibals Problem
 
-```
-https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr?usp=sharing
-```
+The Missionaries and Cannibals Problem is a river-crossing puzzle in which three missionaries and three cannibals must cross a river using a boat that can carry at most two people. The goal is to move all missionaries and cannibals to the opposite bank without ever having the number of cannibals exceed the number of missionaries on either side. The DFS algorithm will help us find a sequence of moves to solve this problem.
 
+### The Jealous Husbands Problem
 
-<font color="blue"><h2>Report 📝</h2></font>
-Here is the report:
+The Jealous Husbands Problem is another variant of the river-crossing puzzle. In this problem, three husbands and their wives want to cross a river using a boat that can carry at most two people. However, no woman should be left in the presence of another man unless her husband is also present. The objective is to find a sequence of moves that allows all individuals to reach the opposite bank safely.
 
-![alt text](Report/img/Page1.jpg "Main page")
-![alt text](Report/img/Page2.jpg "Main page")
-![alt text](Report/img/Page3.jpg "Main page")
-![alt text](Report/img/Page4.jpg "Main page")
-![alt text](Report/img/Page5.jpg "Main page")
-![alt text](Report/img/Page6.jpg "Main page")
+## Getting Started
+
+To solve the river-crossing logic puzzle using DFS, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Run the `Main.java` class.
+4. The program will prompt you to select one of the two challenge options: standard or customizable.
+5. If you choose the customizable option, you can edit the parameters of the puzzle (e.g., number of cannibals, missionaries, boats) as instructed by the program.
+6. The DFS algorithm will then solve the selected puzzle and display the sequence of moves to cross the river safely.
+
+## Example
+
+![alt text](Report/DepthFirstSearch.png "Main page")
+
+## Contributions
+
+Contributions to this project are welcome. If you have any suggestions for improvements or wish to add more features or river-crossing puzzles, feel free to submit a pull request.
+
+## License
+
+This project is under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), allowing you to use, modify, and distribute the code freely.
+
+## Acknowledgments
+
+Special thanks to Saul Amarel for introducing the Missionaries and Cannibals Problem and providing it as an example of problem representation in artificial intelligence.
+
+Let's embark on a challenging journey of river-crossing logic puzzles using the Depth-First Search algorithm! Happy solving! 🚣‍♂️🚣‍♀️

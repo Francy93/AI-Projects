@@ -1,30 +1,57 @@
-# Convolutional_Neural_Network
-AI: Second project of the Computer Science third-year about Convolutional Neural Network (CNN)
+# Genetic Algorithm - Java Implementation
 
-<font color="blue"><h2>Convolutional Neural Network 🧠</h2></font>
-This project is about Convolutional Neural Network (CNN) and is the second project of the Computer Science third-year course.
+In this project, we focus specifically on the **Genetic Algorithm**, which is a powerful search heuristic inspired by the process of natural selection. The goal of this project is to implement the Genetic Algorithm in Java and explore two different selection methods: **Fitness Proportionate Selection** and **Rank Selection**. Both methods are used to create the next generation of solutions based on their fitness scores.
 
-<font color="blue"><h2>Overview 📚</h2></font>
-Convolutional Neural Networks (CNN) are a type of neural network that have been widely used in image and video recognition. CNNs are inspired by the structure of the animal visual cortex and can automatically learn to recognize visual patterns such as edges and shapes.
-The maximum accuracy reached was 99.04% in 81 epochs.
+## Genetic Algorithm Overview
 
-In this project, I implemented a CNN from scratch using Java without any machine learning related library, and trained the model on a mnist dataset, which consists of 2,810 8x8 gray-scale images in 10 classes. I used also Google Colab for this project, which is a free cloud-based Jupyter notebook environment that provides access to testing environments.
+The Genetic Algorithm (GA) mimics the process of evolution to find optimal solutions to a problem. It starts with a population of potential solutions, which are represented as chromosomes. These chromosomes encode the problem's solutions in a way that is specific to the problem domain.
 
-<font color="blue"><h2>Try it out on Google Colab 🚀</h2></font>
-You can try out this implementation of the CNN on Google Colab by clicking on this link: 
-<a href="https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr#scrollTo=VWjk2um_hSyR"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+The GA proceeds through a series of generations, and in each generation, it applies three fundamental genetic operators:
 
-```
-https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr?usp=sharing
-```
+1. **Selection**: This process chooses individuals from the current population to form the next generation based on their fitness scores. Individuals with higher fitness are more likely to be selected.
 
+2. **Crossover**: Crossover is the process of combining genetic information from two parent chromosomes to create one or more offspring. It promotes exploration of the solution space.
 
-<font color="blue"><h2>Report 📝</h2></font>
-Here is the report:
+3. **Mutation**: Mutation introduces random changes to the offspring's genetic information, encouraging further exploration and preventing premature convergence.
 
-![alt text](Report/img/Page1.jpg "Main page")
-![alt text](Report/img/Page2.jpg "Main page")
-![alt text](Report/img/Page3.jpg "Main page")
-![alt text](Report/img/Page4.jpg "Main page")
-![alt text](Report/img/Page5.jpg "Main page")
-![alt text](Report/img/Page6.jpg "Main page")
+The process of selection, crossover, and mutation is repeated for several generations until the algorithm converges to an optimal or near-optimal solution.
+
+## Selection Methods
+
+In this project, we will implement and compare two selection methods: **Fitness Proportionate Selection** and **Rank Selection**.
+
+### Fitness Proportionate Selection
+
+Fitness Proportionate Selection, also known as Roulette Wheel Selection, is a widely used selection method in Genetic Algorithms. It selects individuals from the current population with a probability proportional to their fitness scores. Individuals with higher fitness scores have a higher chance of being selected as parents for the next generation.
+
+### Rank Selection
+
+Rank Selection is another selection method that assigns ranks to individuals based on their fitness scores. The fittest individual receives rank 1, the second fittest receives rank 2, and so on. The selection probability is then based on the rank rather than the raw fitness score. Rank Selection tends to provide a more uniform selection pressure, benefiting lower-ranked individuals.
+
+## Getting Started
+
+To run the Genetic Algorithm with both selection methods, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Run the `Main.java` class.
+4. Choose a selection method from the menu displayed in the terminal.
+5. Examine the output results and compare the performance of both selection methods.
+
+## Example
+
+![alt text](Report/GeneticAlgo.png "Main page")
+
+## Contributions
+
+Contributions to this project are welcome. If you have any suggestions for improvements or wish to add more features or selection methods, feel free to submit a pull request.
+
+## License
+
+This project is under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), allowing you to use, modify, and distribute the code freely.
+
+## Acknowledgments
+
+Special thanks to the community for their valuable insights and resources on Genetic Algorithms and various selection methods.
+
+Let's explore the power of Genetic Algorithms and discover optimal solutions to complex problems! Happy coding! 🧬

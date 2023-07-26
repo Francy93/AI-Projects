@@ -50,7 +50,7 @@ Feel free to contribute to any of these projects by submitting pull requests. Bu
 
 ## License
 
-These projects are under the [MIT License](LICENSE), allowing you to use, modify, and distribute the code freely.
+These projects are under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), allowing you to use, modify, and distribute the code freely.
 
 ## Acknowledgments
 

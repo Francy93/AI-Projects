@@ -1,30 +1,37 @@
-# Convolutional_Neural_Network
-AI: Second project of the Computer Science third-year about Convolutional Neural Network (CNN)
+# Perceptron - Java Implementation
 
-<font color="blue"><h2>Convolutional Neural Network 🧠</h2></font>
-This project is about Convolutional Neural Network (CNN) and is the second project of the Computer Science third-year course.
+In this project, we will implement the **Perceptron** algorithm in Java. The Perceptron is a fundamental building block of neural networks and is used for binary classification problems. The goal of this project is to create a perceptron model from scratch and test it on three datasets: `lineClass0.txt`, `lineClass1.txt`, and `lineClass2.txt`. These datasets contain two linearly separable clusters of points, making them suitable for testing the perceptron's binary classification capabilities.
 
-<font color="blue"><h2>Overview 📚</h2></font>
-Convolutional Neural Networks (CNN) are a type of neural network that have been widely used in image and video recognition. CNNs are inspired by the structure of the animal visual cortex and can automatically learn to recognize visual patterns such as edges and shapes.
-The maximum accuracy reached was 99.04% in 81 epochs.
+## Perceptron Overview
 
-In this project, I implemented a CNN from scratch using Java without any machine learning related library, and trained the model on a mnist dataset, which consists of 2,810 8x8 gray-scale images in 10 classes. I used also Google Colab for this project, which is a free cloud-based Jupyter notebook environment that provides access to testing environments.
+The Perceptron is a supervised learning algorithm used to classify input data into one of two classes (usually labeled as 0 and 1). It takes input features, applies weights to them, and passes them through an activation function to make predictions. During the training process, the algorithm adjusts the weights based on the input data to improve the accuracy of predictions.
 
-<font color="blue"><h2>Try it out on Google Colab 🚀</h2></font>
-You can try out this implementation of the CNN on Google Colab by clicking on this link: 
-<a href="https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr#scrollTo=VWjk2um_hSyR"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+The learning rule used by the perceptron is simple and iterative. It updates the weights incrementally to minimize the classification error. The perceptron continues to update the weights until the training data is correctly classified or a specified number of iterations is reached.
 
-```
-https://colab.research.google.com/drive/1UjcC4Cm2_UlceRvDiEEb3FQzJLsSwNjr?usp=sharing
-```
+## Getting Started
 
+To test the Perceptron on the provided datasets, follow these steps:
 
-<font color="blue"><h2>Report 📝</h2></font>
-Here is the report:
+1. Clone this repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Run the `Main.java` class.
+4. Upon execution, the program will prompt you to provide the filename of the dataset to test (e.g., `lineClass0.txt`). Enter the desired filename from the command line.
+5. The Perceptron will be trained on the chosen dataset and display the classification results.
 
-![alt text](Report/img/Page1.jpg "Main page")
-![alt text](Report/img/Page2.jpg "Main page")
-![alt text](Report/img/Page3.jpg "Main page")
-![alt text](Report/img/Page4.jpg "Main page")
-![alt text](Report/img/Page5.jpg "Main page")
-![alt text](Report/img/Page6.jpg "Main page")
+## Example
+
+![alt text](Report/Perceptron.png "Main page")
+
+## Contributions
+
+Contributions to this project are welcome. If you have any suggestions for improvements or wish to add more features, feel free to submit a pull request.
+
+## License
+
+This project is under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), allowing you to use, modify, and distribute the code freely.
+
+## Acknowledgments
+
+Special thanks to the community for their valuable insights and resources on the Perceptron algorithm and binary classification.
+
+Let's dive into the world of Perceptron and witness its binary classification prowess! Happy coding! 🧠
