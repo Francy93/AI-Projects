@@ -1,6 +1,6 @@
 # Genetic Algorithm - Java Implementation
 
-In this project, we focus specifically on the **Genetic Algorithm**, which is a powerful search heuristic inspired by the process of natural selection. The goal of this project is to implement the Genetic Algorithm in Java and explore two different selection methods: **Fitness Proportionate Selection** and **Rank Selection**. Both methods are used to create the next generation of solutions based on their fitness scores.
+This project focuses specifically on the **Genetic Algorithm**, which is a powerful search heuristic inspired by the process of natural selection. The goal of this project is to implement the Genetic Algorithm in Java and explore two different selection methods: **Fitness Proportionate Selection** and **Rank Selection**. Both methods are used to create the next generation of solutions based on their fitness scores.
 
 ## Genetic Algorithm Overview
 
@@ -18,7 +18,7 @@ The process of selection, crossover, and mutation is repeated for several genera
 
 ## Selection Methods
 
-In this project, we will implement and compare two selection methods: **Fitness Proportionate Selection** and **Rank Selection**.
+In this project, two selection methods will be implemented and compared: **Fitness Proportionate Selection** and **Rank Selection**.
 
 ### Fitness Proportionate Selection
 
