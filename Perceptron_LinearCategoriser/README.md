@@ -1,6 +1,6 @@
 # Perceptron - Java Implementation
 
-In this project, we will implement the **Perceptron** algorithm in Java. The Perceptron is a fundamental building block of neural networks and is used for binary classification problems. The goal of this project is to create a perceptron model from scratch and test it on three datasets: `lineClass0.txt`, `lineClass1.txt`, and `lineClass2.txt`. These datasets contain two linearly separable clusters of points, making them suitable for testing the perceptron's binary classification capabilities.
+In this project, the **Perceptron** algorithm will be implemented in Java. The Perceptron is a fundamental building block of neural networks and is used for binary classification problems. The goal of this project is to create a perceptron model from scratch and test it on three datasets: `lineClass0.txt`, `lineClass1.txt`, and `lineClass2.txt`. These datasets contain two linearly separable clusters of points, making them suitable for testing the perceptron's binary classification capabilities.
 
 ## Perceptron Overview
 

@@ -1,6 +1,6 @@
 # Depth-First Search (DFS) - River-Crossing Logic Puzzle
 
-In this project, we will implement the **Depth-First Search (DFS) algorithm** in Java. The DFS algorithm will be used to solve two classic river-crossing logic puzzles: **The Missionaries and Cannibals Problem** and **The Jealous Husbands Problem**. The Missionaries and Cannibals Problem is a well-known toy problem in artificial intelligence and serves as an example of problem representation.
+In this project, the **Depth-First Search (DFS) algorithm** will be implemented in Java. The DFS algorithm will be used to solve two classic river-crossing logic puzzles: **The Missionaries and Cannibals Problem** and **The Jealous Husbands Problem**. The Missionaries and Cannibals Problem is a well-known toy problem in artificial intelligence and serves as an example of problem representation.
 
 ## DFS Overview
 
