@@ -4,7 +4,7 @@
 
 This repository contains three Java projects related to Artificial Intelligence. These projects were built from scratch without the use of any machine learning libraries. Each project focuses on a specific AI concept and aims to demonstrate the implementation of these algorithms in Java.
 
-## Project 1: Perceptron
+## Project 1: [Perceptron](https://github.com/Francy93/AI-Projects/tree/master/Perceptron_LinearCategoriser)
 
 The **Perceptron** is one of the fundamental building blocks of neural networks and machine learning. It is a simple algorithm used for binary classification problems. The Perceptron takes input features, applies weights to them, and passes them through an activation function to make predictions. During the training process, the algorithm adjusts the weights based on the input data to improve the accuracy of predictions.
 
@@ -14,7 +14,7 @@ The **Perceptron** is one of the fundamental building blocks of neural networks 
 - Training the Perceptron on a custom dataset for binary classification tasks.
 - Evaluating the performance of the trained Perceptron.
 
-## Project 2: Depth-First Search (DFS)
+## Project 2: [Depth-First Search](https://github.com/Francy93/AI-Projects/tree/master/DepthFirstSearch) (DFS)
 
 **Depth-First Search** is an essential graph traversal algorithm used to explore all the vertices in a graph. It starts from a specific node and explores as far as possible along each branch before backtracking. DFS can be applied to find paths, connected components, and cycles in a graph.
 
@@ -24,7 +24,7 @@ The **Perceptron** is one of the fundamental building blocks of neural networks 
 - Representation of the graph data structure using adjacency lists or matrices.
 - Exploration of various applications like finding paths or connected components using DFS.
 
-## Project 3: Genetic Algorithm
+## Project 3: [Genetic Algorithm](https://github.com/Francy93/AI-Projects/tree/master/GeneticAlgorithm)
 
 The **Genetic Algorithm** is a search heuristic inspired by the process of natural selection. It mimics the process of evolution to find the best solution to a problem. The algorithm starts with a population of potential solutions and uses genetic operators such as selection, crossover, and mutation to evolve the population over generations, gradually improving the solutions.
 
