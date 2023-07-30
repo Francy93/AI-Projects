@@ -1,4 +1,11 @@
-# Three Java AI Projects
+<p align="center">
+  <img height="200px" width="200px" style="display: block;" src="https://raw.githubusercontent.com/Francy93/AI-Projects/master/Perceptron_LinearCategoriser/Report/logo.png"/>
+  <summary align="center">
+    <font color="blue">
+      <h1 align="center">AI Projects</h1>
+    </font>
+  </summary>
+</p><br>
 
 ## Introduction
 
